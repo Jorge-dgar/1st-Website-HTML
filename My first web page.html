@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<!-- 1) Create a brand new HTML document with the following structure:
+Chapter 1, including the sections 'Introduction' and 'Objectives'
+Chapter 2, including the sections 'Movies, ''Directors' and 'Actors and actresses'
+Each section must contain two paragraphs containing descriptive text
+Use the tags h1, h2 and p
+
+2) Now edit the previous document and ensure you add the following elements on it:
+A famous cite from a historical figure from the context of the movies, using the blockquote element
+A definition list explaining the movie genres 'Action', 'Comedy' and 'Horror'
+An image included in a figure element, with a caption (the image must be related to the world of movies as well)
+An ordered list with the top 10 most successful movies (according to the money collected or box office) with a link to their entries in Wikipedia
+Add a video element from an external source with the trailer of a movie
+
+3) Add a third section to the previous document with a web form that allows a reader to buy a subscription to a movie magazine. The form must contain: first name, 
+last name, postal address, electronic mail, telephone number, number of issues (numeric value varying in a scale from 1 to 10) and the type of subscription 
+(monthly, quarterly or yearly).
+
+4) Create a table in the document with the timetable of three movies currently in theaters for the sessions during the next weekend. 
+Use table headers and footers as well.
+
+5) Last, add the following elements to the page: a disclaimer with some legal information in small print, and a related advertisement from a local theater. Ensure they are placed in the right place and with the right tag. -->
+
+<html lang="en">
+
+<head>
+    <title>CINE </title>
+</head>
+
+<body>
+    <h1>Movies for the weekend.</h1>
+    <header>
+        <table>
+            <p>Timetable:</p>
+            <thead>
+                <tr>
+                    <th>Movie</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                <tr>
+                    <td>Spider-Man: Across the Spider-Verse</td>
+                    <td>16:30</td>
+                    <td>18:00</td>
+                    <td>19:30</td>
+                <tr>
+                    <td>The Portable Door</td>
+                    <td>16:30</td>
+                    <td>18:00</td>
+                    <td>19:30</td>
+                <tr>
+                    <td>Last Action Hero</td>
+                    <td>16:30</td>
+                    <td>18:00</td>
+                    <td>19:30</td>
+                </tr>
+            </thead>
+        </table>
+    </header><br>
+    <tfoot>
+        <tr>
+            <th>Note: All times are in local timezone.</th>
+        </tr>
+    </tfoot>
+    <h1>Chapter 1</h1>
+
+    <h2>Introduction</h2>
+    <p>Top 10 most viewed films:</p>
+    <ul>
+        <li>
+            <a href="https://es.wikipedia.org/wiki/Avatar_(pel%C3%ADcula)">'Avatar' - 2,923,706,026 $</a>
+        </li>
+        <li>
+            <a href="https://es.wikipedia.org/wiki/Avengers:_Endgame">'Vengadores: Endgame' - 2,799,439,100 $</a>
+        </li>
+        <li>
+            <a href="https://es.wikipedia.org/wiki/Avatar:_The_Way_of_Water">'Avatar 2' - 2,320,250,233 $</a>
+        </li>
+        <li>
+            <a href="https://es.wikipedia.org/wiki/Titanic_(pel%C3%ADcula_de_1997)">'Titanic' - 2,264,743,180 $</a>
+        </li>
+        <li>
+            <a href="https://es.wikipedia.org/wiki/Star_Wars:_Episodio_VII_-_El_despertar_de_la_Fuerza">'Star Wars: Episodio VII - El despertar de la Fuerza' - 2.071.521.700 $</a>
+        </li>
+        <li>
+            <a href="https://es.wikipedia.org/wiki/Avengers:_Infinity_War">'Vengadores: Infinity War' - 2.052.359.754 $</a>
+        </li>
+        <li>
+            <a href="https://es.wikipedia.org/wiki/Spider-Man:_No_Way_Home">'Spider-Man: No Way Home' - 1.921.704.167 $</a>
+        </li>
+        <li>
+            <a href="https://es.wikipedia.org/wiki/Jurassic_World">'Jurassic World' - 1.670.516.444 $</a>
+        </li>
+        <li>
+            <a href="https://es.wikipedia.org/wiki/El_rey_le%C3%B3n_(pel%C3%ADcula_de_2019)">'El Rey León' (2019) - 1.663.075.439 $</a>
+        </li>
+        <li>
+            <a href="https://es.wikipedia.org/wiki/Los_Vengadores">'Los Vengadores' (2012) - 1.520.538.515 $</a>
+        </li>
+    </ul>
+
+    <p>There are some genres as:</p>
+    <dl>
+        <dt>Action</dt>
+        <dd> The action movies are based on a lot of action scenes, fights, etc...</dd>
+        <dt>Horror</dt>
+        <dd>The strong point of this films are the fear that causes to the people who watch the movie.</dd>
+        <dt>Comedy</dt>
+        <dd>This films main objective is to make laugh the people who watches the movie.</dd>
+    </dl>
+    <h2>Objectives</h2>
+    <p>The objectives of this page is to see some films and what it envolves.</p>
+    <p>We are gonna analize the actors/actressess and the directors of each movie.</p>
+
+    <h1>Chapter 2</h1>
+
+    <h2>Movies</h2>
+    <p>Peter Pan</p>
+    <figure> <img src="peterpan.jpg"></figure>><blockquote>“All the world is made of faith, and trust, and pixie dust.” -- Peter Pan.</blockquote>
+    <p>Harry Potter</p>
+    <figure><img src="harryPotter.jpg" width="400" height="320"></figure><blockquote>"I solemnly swear I am up to no good." -- Harry Potter.</blockquote>
+    <video width="440"  height="260" controls>
+        <source src="trailer.mp4">
+    </video>
+
+    <h2>Directors</h2>
+    <p>Hamilton Luske for Peter Pan.</p>
+    <p>Mike Newell for Harry Potter.</p>
+
+    <h2>Actors and actresses</h2>
+    <p>Ever Anderson, Alexander Moloy and Jude Law as the main characters from the Peter Pan movie.</p>
+    <p>Daniel Radcliff, Emma Watsson and Rupert Grint as the main Characters from the Harry Potter films.</p>
+
+    <h1>Subscribe to Movie Magazine</h1>
+    <form action="Subscription" method="post">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br>
+
+        <label for="postalAddress">Postal Address:</label>
+        <input type="text" id="postalAddress" name="postalAddress" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br>
+
+        <label for="numIssues">Number of Issues (1-10):</label>
+        <input type="number" id="numIssues" name="numIssues" min="1" max="10" required><br>
+
+        <label for="subscriptionType">Subscription Type:</label>
+        <select id="subscriptionType" name="subscriptionType" required>
+            <option value="monthly">Monthly</option>
+            <option value="quarterly">Quarterly</option>
+            <option value="yearly">Yearly</option>
+        </select><br>
+        <input type="submit" value="Subscribe">
+    </form>
+</body>
+</html>
